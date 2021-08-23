@@ -6,9 +6,9 @@
 
 - Fixed Audio Output
 - Lightweight {Requires at least 4GB Storage}
-- Katoolin3 tool for installing kali tools
-- 2 Browsers (Chromium & Mozilla Firefox)
-- Supports Bangla Fonts
+- WhiteSur macOS theme ( GTK + ICON + CURSORS )
+- 2 Browsers (Chromium & Firefox)
+- Supports Indian Fonts & Emoji Support
 - VLC Media Player
 - Visual Studio Code
 - Easy for Beginners
