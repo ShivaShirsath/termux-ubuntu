@@ -21,7 +21,7 @@ login() {
     echo -e "${W}"
     echo "$user ALL=(ALL:ALL) ALL" >> /etc/sudoers
     adduser $user
-    echo "proot-distro login --user $user ubuntu-20.04" > $PREFIX/bin/ubuntu
+    echo "proot-distro login --user $user ubuntu" > $PREFIX/bin/ubuntu
     chmod +x $PREFIX/bin/ubuntu
     mv -vf /data/data/com.termux/files/home/termux-ubuntu/distro/gui.sh /home/$user/gui.sh
     chmod +x /home/$user/gui.sh
