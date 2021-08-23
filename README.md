@@ -42,6 +42,8 @@
   bash gui.sh
   ```
 
+- [ Install VNC VIEWER Apk on your Device. ](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en)
+
 - **You have to note your VNC password !!**
 
 - Ubuntu image is now successfully installed .
@@ -54,8 +56,6 @@
     ```bash
     vncstop
     ```
-
-- Install VNC VIEWER Apk on your Device. [►](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en)
 
 - Open VNC VIEWER & Click on ╋ Button & Enter the Address `localhost:5901` & Name anything you like
   
