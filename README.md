@@ -75,11 +75,11 @@
 
 - **Type `bash remove.sh` to remove Ubuntu Modded Os**
 
-### Video Tutorial : 
+### Install neofetch `sudo apt install neofetch` for Checking Version : 
 
-[![Watch the Tutorial](./distro/image1.png)](https://mega.nz/embed/QvIC1TLQ#3z27MRNPwANAg6JTtx1Ei8kDouOZsZgk00bg4TsJMNQ!1m)
+![Watch the Tutorial](./distro/image1.png)
 
-### Credits : 
+### Credits 
 
    ```
    This Tool Uses the ubuntu image provided by the termux package `proot-distro` 
