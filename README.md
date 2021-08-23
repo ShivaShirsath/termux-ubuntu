@@ -57,7 +57,10 @@
 
 - Install VNC VIEWER Apk on your Device. [►](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en)
 
-- Open VNC VIEWER & Click on + Button & Enter the Address `localhost:5901` & Name anything you like
+- Open VNC VIEWER & Click on ╋ Button & Enter the Address `localhost:5901` & Name anything you like
+  ```bash
+  
+  ```
 - Set the Picture Quality to High for better Quality
 - Click on Connect & Input the Password 
 - Enjoy :D
