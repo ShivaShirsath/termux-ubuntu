@@ -9,7 +9,7 @@
 - WhiteSur macOS theme ( GTK + ICON + CURSORS )
 - 2 Browsers (Chromium & Firefox)
 - Supports Indian Fonts & Emoji Support
-- Java installed ( open JDK 8 ) [[installation](https://github.com/ShivaShirsath/Install-JDK-in-Ubuntu)]
+- Java installed ( open JDK 8 ) [ [installation](https://github.com/ShivaShirsath/Install-JDK-in-Ubuntu) ]
 - Visual Studio Code
 - Easy for Beginners
 
