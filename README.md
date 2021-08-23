@@ -59,7 +59,7 @@
 
 - Open VNC VIEWER & Click on ╋ Button & Enter the Address `localhost:5901` & Name anything you like
   ```bash
-  
+  termux-open vnc://localhost:5901
   ```
 - Set the Picture Quality to High for better Quality
 - Click on Connect & Input the Password 
