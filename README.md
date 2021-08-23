@@ -5,12 +5,12 @@
 ### Features
 
 - Fixed Audio Output
-- Lightweight {Requires at least 4GB Storage}
+- Lightweight { Requires at least 4GB Storage }
 - WhiteSur macOS theme ( GTK + ICON + CURSORS )
-- 2 Browsers (Chromium & Firefox)
+- 2 Browsers ( Chromium & Firefox )
 - Supports Indian Fonts & Emoji Support
 - Java installed ( open JDK 8 ) [ [installation](https://github.com/ShivaShirsath/Install-JDK-in-Ubuntu) ]
-- Visual Studio Code
+- Visual Studio Code 
 - Easy for Beginners
 
 ### Installation
