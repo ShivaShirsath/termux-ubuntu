@@ -92,7 +92,7 @@ permission() {
 }
 
 #bash /data/data/com.termux/files/home/termux-ubuntu/banner
-#package
-#distro
-#sound
-#permission
+package
+distro
+sound
+permission
