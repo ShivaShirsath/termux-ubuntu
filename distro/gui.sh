@@ -100,10 +100,6 @@ theme(){
     sudo chmod +x $HOME/WhiteSur-cursors/install.sh
     sudo bash $HOME/WhiteSur-cursors/install.sh
 
-    git clone --depth=1 https://github.com/s-h-3-l-l/katoolin3.git $HOME/katoolin3
-    sudo chmod +x $HOME/katoolin3/install.sh
-    cd $HOME/katoolin3 && sudo bash install.sh
-
     sudo apt update -y
     sudo apt autoremove -y
 
