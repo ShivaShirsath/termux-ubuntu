@@ -82,9 +82,9 @@
 ### Credits 
 
    
-   > This Tool Uses the ubuntu image provided by the termux package `proot-distro` 
-   > Full Credit of the Ubuntu image goes to them 
-   > Termux Proot Distro - https://github.com/termux/proot-distro
+   > This Tool Uses the ubuntu image provided by the termux package `proot-distro`    
+   > Full Credit of the Ubuntu image goes to them    
+   > Termux Proot Distro - https://github.com/termux/proot-distro   
    
 
 ### If you like our work then dont forget to give a Star :)
