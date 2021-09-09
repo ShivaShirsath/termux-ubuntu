@@ -8,10 +8,10 @@
 
 - Fixed Audio Output
 - Lightweight { Requires at least 4GB Storage }
-- WhiteSur macOS [theme](https://github.com/ShivaShirsath/MacOS-theme-for-Ubuntu) ( [GTK](https://github.com/vinceliuice/WhiteSur-gtk-theme.git) + [ICON](https://github.com/vinceliuice/WhiteSur-icon-theme.git) + [CURSORS](https://github.com/vinceliuice/WhiteSur-cursors.git) )
+- WhiteSur macOS [theme](https://github.com/ShivaShirsath/MacOS-theme-for-Ubuntu.git) ( [GTK](https://github.com/vinceliuice/WhiteSur-gtk-theme.git) + [ICON](https://github.com/vinceliuice/WhiteSur-icon-theme.git) + [CURSORS](https://github.com/vinceliuice/WhiteSur-cursors.git) )
 - 2 Browsers ( Chromium & Firefox )
 - Supports Indian Fonts & Emoji Support
-- Java installed ( open JDK 8 ) [ [installation](https://github.com/ShivaShirsath/Install-JDK-in-Ubuntu) ]
+- Java installed ( open JDK 8 ) { [installation](https://github.com/ShivaShirsath/Install-JDK-in-Ubuntu.git) }
 - Visual Studio Code 
 - Easy for Beginners
 
