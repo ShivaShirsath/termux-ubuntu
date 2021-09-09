@@ -1,4 +1,5 @@
-![](./distro/gui.png)
+![](banner.png)
+![](distro/gui.png)
 
 <p align="center"><b>Run Ubuntu GUI on your termux with much features.</b></p>
 
@@ -81,7 +82,7 @@
 
 ### Install neofetch `sudo apt install neofetch` for Checking Version : 
 
-![](./distro/cli.png)
+![](distro/cli.png)
 
 ### Credits 
 
