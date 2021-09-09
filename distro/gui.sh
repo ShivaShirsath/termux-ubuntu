@@ -120,12 +120,12 @@ vnc() {
     vncserver
     
     vncserver -kill :*
-    rm -rf /home/$USER/.vnc/localhost:*.pid
+    rm -rf $HOME/.vnc/localhost:*.pid
     rm -rf /tmp/.X1-lock
     rm -rf /tmp/.X11-unix/X1
     
     vncserver -kill :*
-    rm -rf /home/$USER/.vnc/localhost:*.pid
+    rm -rf $HOME/.vnc/localhost:*.pid
     rm -rf /tmp/.X1-lock
     rm -rf /tmp/.X11-unix/X1
     
