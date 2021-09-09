@@ -74,10 +74,10 @@
 ### NOTE :
 
 - **Type `ubuntu` to run Ubuntu CLI.**
-- **Type `vnc` to Start OR Stop VNC server**
+- **Type `vnc` to Start OR Stop VNC server as a Ubuntu GUI**
 - **Touch on `<Start>` OR `<Stop>` Option**
 
-- **Type `bash remove.sh` to remove Ubuntu Modded Os**
+- **Type `bash remove` to remove this Ubuntu OS**
 
 ### Install neofetch `sudo apt install neofetch` for Checking Version : 
 
