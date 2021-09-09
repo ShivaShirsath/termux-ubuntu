@@ -19,7 +19,7 @@ package() {
     echo "" > /var/lib/dpkg/info/udisks2.postinst
     sudo dpkg --configure -a
     sudo apt-mark hold udisks2
-    packs=(sudo nano git xfce4 xfce4-terminal firefox fonts-indic fonts-emojione openjdk-8-jdk )
+    packs=(sudo nano git xfce4 xfce4-goodies xfce4-terminal firefox fonts-indic fonts-emojione openjdk-8-jdk )
     for pack in "${packs[@]}"; do
         type -p "$pack" &>/dev/null || {
             echo -e "\n${R} [${W}-${R}]${G} Installing package : ${Y}$pack${C}"${W}
@@ -152,7 +152,7 @@ note() {
     echo
     echo -e " ${C}Click on Connect & Input the Password."${W}
     echo
-    echo -e " ${C}Enjoy :D"${W}
+    echo -e " ${C}Enjoy :D"${Z}
     echo
     echo
 }
