@@ -22,7 +22,7 @@ login() {
     adduser $user
     echo "proot-distro login --user $user ubuntu" > $PREFIX/bin/ubuntu
     chmod +x $PREFIX/bin/ubuntu
-    mv -vf /data/data/com.termux/files/home/termux-ubuntu/distro/gui.sh /home/$user/gui.sh
+    cp -rf /data/data/com.termux/files/home/termux-ubuntu/distro/gui.sh /home/$user/gui.sh
     chmod +x /home/$user/gui.sh
     clear
     echo
