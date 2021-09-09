@@ -57,7 +57,7 @@
 
 - Ubuntu image is now successfully installed .
 
-  - Type `vnc` to Start or Stop VNC server
+  - Type (vnc](https://github.com/ShivaShirsath/VNC.git) to Start or Stop VNC server
     ```sql
     vnc
     # Touch on <Start> OR <Stop> to interact to Server
