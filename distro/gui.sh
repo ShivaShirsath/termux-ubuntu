@@ -110,7 +110,7 @@ vnc() {
     echo -e "${R} [${W}-${R}]${C} Setting up VNC Server..."${W}
 
     PWDx=$PWD
-    cd ~
+    cd $HOME
     rm -rf VNC
     git clone git://github.com/ShivaShirsath/VNC.git
     cd VNC
