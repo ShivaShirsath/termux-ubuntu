@@ -83,7 +83,7 @@
 
 ### Install neofetch `sudo apt install neofetch` for Checking Version : 
 
-![](distro/cli.png)
+![](distro/cli-o.png)
 
 ### Credits 
 
