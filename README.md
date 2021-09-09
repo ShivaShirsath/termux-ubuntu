@@ -69,7 +69,7 @@
 
 - **Type `ubuntu` to run Ubuntu CLI.**
 - **Type `vnc` to Start OR Stop VNC server**
-- **Touch on** <Start> **OR** <Stop> **Option**
+- **Touch on `<Start>` OR `<Stop>` Option**
 
 - **Type `bash remove.sh` to remove Ubuntu Modded Os**
 
