@@ -23,14 +23,15 @@
   cd ~
   git clone git://github.com/ShivaShirsath/termux-ubuntu.git
   cd termux-ubuntu
-  bash setup.sh
+  chmod +x setup
+  bash setup
   ```
 
 - Then Restart your Termux & Type the following commands
 
   ```bash
   ubuntu
-  bash cli.sh
+  bash cli
   ```
 
 - Type your ubuntu root username. Must be lowercase & no space included.
@@ -39,7 +40,7 @@
 
   ```bash
   ubuntu
-  bash gui.sh
+  bash gui
   ```
 
 - [ Install VNC VIEWER Apk on your Device. ](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en)
