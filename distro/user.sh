@@ -11,7 +11,6 @@ sudo() {
     echo -e "\n${R} [${W}-${R}]${C} Installing Sudo..."${W}
     apt update -y
     apt install sudo -y
-    apt install wget -y
     echo -e "\n${R} [${W}-${R}]${G} Sudo Successfully Installed !"${W}
 }
 
