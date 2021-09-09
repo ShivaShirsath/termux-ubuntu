@@ -67,7 +67,7 @@
   
   **OR**
   ```bash
-  termux-open vnc://localhost:5901
+  $PREFIX/bin/termux-open vnc://localhost:5901
   ```
 - Set the Picture Quality to High for better Quality
 - Click on Connect & Input the Password 
