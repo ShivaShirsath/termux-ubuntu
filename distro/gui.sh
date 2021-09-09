@@ -108,8 +108,19 @@ theme(){
 vnc() {
     bash /data/data/com.termux/files/home/termux-ubuntu/banner
     echo -e "${R} [${W}-${R}]${C} Setting up VNC Server..."${W}
+    
+    vncserver
+    
+    vncserver -kill :*
+    rm -rf /username/.vnc/localhost:*.pid
+    rm -rf /tmp/.X1-lock
+    rm -rf /tmp/.X11-unix/X1
+    
+    vncserver -kill :*
+    rm -rf /username/.vnc/localhost:*.pid
+    rm -rf /tmp/.X1-lock
+    rm -rf /tmp/.X11-unix/X1
 
-    # VNC runner
     
     echo "export DISPLAY=":1"" >> /etc/profile
     echo "export PULSE_SERVER=127.0.0.1" >> /etc/profile
