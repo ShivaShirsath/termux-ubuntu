@@ -1,4 +1,4 @@
-![](banner.png)
+![](banner-o.png)
 ![]()
 ![](distro/gui.png)
 
