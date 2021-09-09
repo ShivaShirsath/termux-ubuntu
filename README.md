@@ -19,12 +19,14 @@
 
   ```bash
   pkg update -y && pkg upgrade -y
-  pkg install git wget -y
+  pkg install git -y
+  PWDx=$PWD
   cd ~
   git clone git://github.com/ShivaShirsath/termux-ubuntu.git
   cd termux-ubuntu
   chmod +x setup
   bash setup
+  cd $PWDx
   ```
 
 - Then Restart your Termux & Type the following commands
