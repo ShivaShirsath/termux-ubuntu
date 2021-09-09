@@ -31,6 +31,8 @@
 
   ```bash
   ubuntu
+  ```
+  ```bash
   bash cli
   ```
 
@@ -40,6 +42,8 @@
 
   ```bash
   ubuntu
+  ```
+  ```bash
   bash gui
   ```
 
