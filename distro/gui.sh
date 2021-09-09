@@ -13,13 +13,13 @@ W="$(printf '\033[1;37m')"
 package() {
     bash /data/data/com.termux/files/home/termux-ubuntu/banner
     echo -e "${R} [${W}-${R}]${C} Checking required packages..."${W}
-    sudo apt-get update -y
+    sudo apt update -y
     sudo apt install udisks2 -y
-    sudo rm /var/lib/dpkg/info/udisks2.postinst
+    sudo rm -rf /var/lib/dpkg/info/udisks2.postinst
     echo "" > /var/lib/dpkg/info/udisks2.postinst
     sudo dpkg --configure -a
     sudo apt-mark hold udisks2
-    packs=(sudo wget curl nano git xfce4 xfce4-terminal firefox tigervnc-standalone-server tigervnc-common fonts-indic fonts-emojione openjdk-8-jdk )
+    packs=(sudo nano git xfce4 xfce4-terminal firefox fonts-indic fonts-emojione openjdk-8-jdk )
     for pack in "${packs[@]}"; do
         type -p "$pack" &>/dev/null || {
             echo -e "\n${R} [${W}-${R}]${G} Installing package : ${Y}$pack${C}"${W}
@@ -109,31 +109,8 @@ vnc() {
     bash /data/data/com.termux/files/home/termux-ubuntu/banner
     echo -e "${R} [${W}-${R}]${C} Setting up VNC Server..."${W}
 
-    if [[ ! -d "$HOME/.vnc" ]]; then
-        mkdir -p "$HOME/.vnc"
-    fi
-
-    if [[ -e "$HOME/.vnc/xstartup" ]]; then
-        rm -rf $HOME/.vnc/xstartup
-    fi
-
-    cp -f /data/data/com.termux/files/home/termux-ubuntu/distro/xstartup $HOME/.vnc/xstartup
-    chmod +x $HOME/.vnc/xstartup
-
-    if [[ -e "/usr/local/bin/vncstart" ]]; then
-        rm -rf /usr/local/bin/vncstart
-    fi
-
-    cp -f /data/data/com.termux/files/home/termux-ubuntu/distro/vncstart /usr/local/bin/vncstart
-    chmod +x /usr/local/bin/vncstart
-
-    if [[ -e "/usr/local/bin/vncstop" ]]; then
-        rm -rf /usr/local/bin/vncstop
-    fi
-
-    cp -f /data/data/com.termux/files/home/termux-ubuntu/distro/vncstop /usr/local/bin/vncstop
-    chmod +x /usr/local/bin/vncstop
-
+    # VNC runner
+    
     echo "export DISPLAY=":1"" >> /etc/profile
     echo "export PULSE_SERVER=127.0.0.1" >> /etc/profile
     source /etc/profile
@@ -145,8 +122,7 @@ note() {
     echo -e " ${G} Successfully Installed !"${W}
     sleep 1
     echo
-    echo -e " ${G}Type ${C}vncstart${G} to start Vncserver."${W}
-    echo -e " ${G}Type ${C}vncstop ${G} to stop  Vncserver."${W}
+    echo -e " ${G}Type ${C}vnc${G} to start or stop VNC server."${W}
     echo
     echo -e " ${C}Install VNC VIEWER Apk on your Device."${W}
     echo
