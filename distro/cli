@@ -22,12 +22,12 @@ login() {
     adduser $user
     echo "proot-distro login --user $user ubuntu" > $PREFIX/bin/ubuntu
     chmod +x $PREFIX/bin/ubuntu
-    cp -rf /data/data/com.termux/files/home/termux-ubuntu/distro/gui.sh /home/$user/gui.sh
-    chmod +x /home/$user/gui.sh
+    cp -rf /data/data/com.termux/files/home/termux-ubuntu/distro/gui /home/$user/gui
+    chmod +x /home/$user/gui
     clear
     echo
     echo -e "\n${R} [${W}-${R}]${G} Restart your Termux & Type ${C}ubuntu"${W}
-    echo -e "\n${R} [${W}-${R}]${G} Then Type ${C}bash gui.sh "${W}
+    echo -e "\n${R} [${W}-${R}]${G} Then Type ${C}bash gui "${W}
     echo
 
 }
