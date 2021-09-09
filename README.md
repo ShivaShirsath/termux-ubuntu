@@ -30,7 +30,7 @@
 
   ```bash
   ubuntu
-  bash user.sh
+  bash cli.sh
   ```
 
 - Type your ubuntu root username. Must be lowercase & no space included.
@@ -48,13 +48,10 @@
 
 - Ubuntu image is now successfully installed .
 
-  - Type `vncstart` to run Vncserver
-    ```bash
-    vncstart
-    ```
-  - Type `vncstop` to stop Vncserver
-    ```bash
-    vncstop
+  - Type `vnc` to Start or Stop VNC server
+    ```sql
+    vnc
+    # Touch on <Start> OR <Stop> to interact to Server
     ```
 
 - Open VNC VIEWER & Click on ╋ Button & Enter the Address `localhost:5901` & Name anything you like
