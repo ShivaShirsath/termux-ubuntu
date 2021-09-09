@@ -65,11 +65,11 @@ permission() {
     bash /data/data/com.termux/files/home/termux-ubuntu/banner
     echo -e "${R} [${W}-${R}]${C} Setting up Environment..."${W}
 
-    if [[ -e "$PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/user.sh" ]]; then
-        chmod +x $PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/user.sh
+    if [[ -e "$PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/cli" ]]; then
+        chmod +x $PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/cli
     else
-        cp -f /data/data/com.termux/files/home/termux-ubuntu/distro/user.sh $PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/user.sh
-        chmod +x $PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/user.sh
+        cp -rf /data/data/com.termux/files/home/termux-ubuntu/distro/cli $PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/cli
+        chmod +x $PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/cli
     fi
 
     echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu
@@ -78,11 +78,11 @@ permission() {
         chmod +x $PREFIX/bin/ubuntu
         termux-reload-settings
         bash /data/data/com.termux/files/home/termux-ubuntu/banner
-        echo -e "\n${R} [${W}-${R}]${G} Ubuntu 20.04(CLI) is now Installed on your Termux"${W}
-        echo -e "\n${R} [${W}-${R}]${G} Restart your Termux to Prevent Some Issues."${W}
+        echo -e "\n${R} [${W}-${R}]${G} Ubuntu 21.04 aarch64 (CLI) is now Installed on your TermUX"${W}
+        echo -e "\n${R} [${W}-${R}]${G} Restart your TermUX to Prevent Some Issues."${W}
         echo -e "\n${R} [${W}-${R}]${G} Type ${C}ubuntu${G} to run Ubuntu CLI."${W}
         echo -e "\n${R} [${W}-${R}]${G} If you Want to Use UBUNTU in GUI MODE then ,"${W}
-        echo -e "\n${R} [${W}-${R}]${G} Run ${C}ubuntu${G} first & then type ${C}bash user.sh "${W}
+        echo -e "\n${R} [${W}-${R}]${G} Run ${C}ubuntu${G} first & then type ${C}bash cli "${W}
         echo -e "\n"
         exit 0
     else
